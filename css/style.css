@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	font-family: "PingFangTC-Semibold", sans-serif;
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+.fz-co-primary{
+	color:#3F5D45;
+}
+.fz-co-secondary{
+	color:#EAF0Ed;
+}
+.bg-co-primary{
+	background:#3F5D45;
+}
+.bg-co-secondary{
+	background:#EAF0Ed;
+}
+
+.wrap{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 30px 42px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.logo{
+	display: block;
+	width: 22%;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu li a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0 30px;
+	line-height: 2;
+	font-size: 16px;
+	font-weight: bold;
+	color: #3F5D45;
+}
+.menu li a:hover{
+	color:#EAF0Ed ;
+	background:#3F5D45;		
+}
+.cardImg{
+	display: block;
+	margin-left: 80px;
+}
+.banner{
+	margin-bottom: 60px;
+}
+.banner img{
+	width: 100%;
+}
+
+.main{
+	display: flex;
+}
+.aside{
+	width: 32.95%;
+	margin-right: 20px;
+}
+h2{
+	font-size: 24px;
+	line-height: 1.5;
+	padding: 15px 0;
+	font-weight: bold;
+	text-align: center;
+}
+.aside-list li{
+	font-size: 24px;
+	line-height: 1.5;
+	padding: 15px 0;
+	text-align: center; 
+	border: 1px solid #EAF0Ed;
+}
+.aside-list li a{
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+} 
+.aside-list li:hover{
+	background:#72a87c;
+}
+
+.content{
+	width: 68.1%;
+}
+.productList{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+.productListCard{
+	max-width: 300px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.productListCard img{
+	display: block;
+}
+.tag{
+	writing-mode: vertical-lr;
+	position: absolute;
+	left: 20px;
+	font-size: 16px;
+	line-height: 1.2;
+	padding: 16px 10px;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.heart{
+	position: absolute;
+	right: 22px;
+}
+.productListCardbody{
+	display: flex;
+	border: 1px solid #EAF0Ed;
+}
+h3{
+	font-size: 20px;
+	width: 57.6%;
+	line-height: 1;
+	padding: 14px 0;
+}
+.productListCardbody span{
+	font-size: 20px;
+	width: 42.4%;
+	line-height: 1.2;
+	padding: 14px 0;
+	font-weight: bold;
+	border: 1px solid #EAF0Ed;
+}
+.productListCard a{
+	display: block;
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 0.83;
+	padding: 16px 0;
+	font-weight: bold;
+}
+.productListCard a:hover{
+	color: red;
+}
+.pangination{
+	display: flex;
+	justify-content: flex-end;
+}
+.pangination li{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #3F5D45;
+}
+.pangination li a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 16px 0;
+	font-size: 24px;
+}
+.pangination li a:hover{
+	color:#fff;
+}
+.page:hover{
+	background: #3f5D45;
+}
