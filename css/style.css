@@ -52,3 +52,72 @@ body{
 *,*:before,*:after{
 	box-sizing: border-box;
 }
+/* .header{
+	padding: 24px 0;
+} */
+.nav{
+	padding: 24px 0;
+	border: 1px solid #000;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F5F5F5;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1120px;
+	padding-left: 16px;
+	padding-right: 16px;
+	background: #F5F5F5;
+}
+.navbarimg{
+	display: block;
+	max-width: 60.59%;
+	height: auto;
+}
+.btn{
+	font-size: 16px;
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	border-radius: 22px;
+	background: #FF5D50;
+	padding: 8px 32px;
+}
+.btn:hover{
+	background: #56C4C5;
+}
+.banner{
+	display: flex;
+	justify-content: space-between;
+}
+.bannerimg{
+	display: block;
+	max-width: 30%;
+	height: auto;
+}
+h1{
+	font-size: 48px;
+}
+h2{
+	font-size: 32px;
+}
+h3{
+	font-size: 24px;
+}
+h4{
+	font-size: 18px;
+}
+.mb-1{
+	margin-bottom: 8px;	
+}
+.mb-2{
+	margin-bottom: 16px;
+}
+.bannertitle{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
