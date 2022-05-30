@@ -89,6 +89,17 @@ p{
 .btn:hover{
 	background: #56C4C5;
 }
+@media(max-width:375px){
+	.nav{
+		padding: 16px 20px;
+	}
+	.navbar li{
+		max-width: 50%;
+	}
+	.navbarImg{
+		max-width: 100%;
+	}
+}
 /* 要改position位置 */
 .banner{
 	display: flex;
@@ -194,6 +205,7 @@ h4{
 	flex-wrap: wrap;
 	max-width: 60%;
 }
+
 .programCard li{
 	margin: 24px 47px 24px 0;
 	width: 230px;
@@ -208,11 +220,28 @@ h4{
 .programCard li h4{
 	margin-bottom: 16px;
 }
+.programTitle{
+	max-width: 40%;
+}
 .programTitle h2{
 	margin-bottom: 16px;
 }
 .programTitle h4{
 	margin-bottom: 24px;
+}
+@media(max-width:375px){
+	.program{
+		max-width: 100%;
+		flex-direction: column-reverse;
+		margin-right: 0px;
+	}
+	.programCard{
+		max-width: 100%;
+		justify-content: center;
+	}
+	.programTitle{
+		max-width: 100%;
+	}
 }
 .article{
 	margin-bottom: 100px;
