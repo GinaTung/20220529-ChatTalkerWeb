@@ -89,6 +89,17 @@ p{
 .btn:hover{
 	background: #56C4C5;
 }
+@media(max-width:575px){
+	.nav{
+		padding: 16px 20px;
+	}
+	.navbar li{
+		max-width: 50%;
+	}
+	.navbarImg{
+		max-width: 75%;
+	}
+}
 @media(max-width:375px){
 	.nav{
 		padding: 16px 20px;
@@ -147,6 +158,22 @@ h4{
 	flex-direction: column;
 	justify-content: center;
 }
+@media(max-width:575px){
+	.banner{
+		flex-wrap: wrap;
+	}
+	.bannerImg{
+		max-width: 75%;
+	}
+}
+@media(max-width:375px){
+	.banner{
+		flex-wrap: wrap;
+	}
+	.bannerImg{
+		max-width: 100%;
+	}
+}
 .main{
 	padding-top: 150px;
 }
@@ -167,6 +194,16 @@ h4{
 	max-width: 33.33%;
 	height: auto;
 	margin-bottom: 24px;
+}
+@media(max-width:575px){
+	.tandemPlatfarmCard{
+		flex-wrap: wrap;
+	}
+}
+@media(max-width:375px){
+	.tandemPlatfarmCard{
+		flex-wrap: wrap;
+	}
 }
 .service{
 	text-align: center;
@@ -192,6 +229,22 @@ h4{
 .serviceCard li p{
 	margin-bottom: 16px;
 	line-height: 1.5;
+}
+@media(max-width:575px){
+	.serviceCard{
+		flex-wrap: wrap;
+	}
+	.serviceCard li{
+		max-width: 45%;
+	}
+}
+@media(max-width:375px){
+	.serviceCard{
+		flex-wrap: wrap;
+	}
+	.serviceCard li{
+		max-width: 100%;
+	}
 }
 .program{
 	display: flex;
@@ -228,6 +281,24 @@ h4{
 }
 .programTitle h4{
 	margin-bottom: 24px;
+}
+@media(max-width:575px){
+	.program{
+		max-width: 100%;
+		flex-direction: column-reverse;
+		margin-right: 0px;
+	}
+	.programCard{
+		max-width: 100%;
+		justify-content: center;
+	}
+	.programCard li{
+		margin: 24px 0 24px 0;
+	}
+	.programTitle{
+		max-width: 100%;
+		text-align: center;
+	}
 }
 @media(max-width:375px){
 	.program{
@@ -291,6 +362,17 @@ h4{
 .articleItemStars img{
 	max-width: 8%;
 }
+@media(max-width:575px){
+	.articleCardContent{
+		max-width: 45%;
+	}
+}
+@media(max-width:375px){
+	.articleCardContent{
+		max-width: 100%;
+	}
+}
+
 .footer{
 	margin: 0 auto;
 	text-align: center;
