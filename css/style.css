@@ -234,6 +234,7 @@ h4{
 		max-width: 100%;
 		flex-direction: column-reverse;
 		margin-right: 0px;
+
 	}
 	.programCard{
 		max-width: 100%;
@@ -241,6 +242,7 @@ h4{
 	}
 	.programTitle{
 		max-width: 100%;
+		text-align: center;
 	}
 }
 .article{
