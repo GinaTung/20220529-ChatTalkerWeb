@@ -78,14 +78,15 @@ p{
 	justify-content: space-between;
 	align-items: center;
 }
-
+.navbox{
+	display: block;
+}
 .navbarImg{
 	display: block;
 	max-width: 60.59%;
 	height: auto;
 }
 .btn{
-	/* display: block; */
 	text-decoration: none;
 	color:#fff;
 	border-radius: 22px;
@@ -95,9 +96,13 @@ p{
 .btn:hover{
 	background: #56C4C5;
 }
-@media(max-width:575px){
+@media(max-width:768px){
+	.header{
+		background-size:75%;
+		padding: 0 20px;
+	}
 	.nav{
-		padding: 16px 20px;
+		padding: 16px 0;
 	}
 	.navbar li{
 		max-width: 50%;
@@ -106,18 +111,16 @@ p{
 		max-width: 75%;
 	}
 }
+@media(max-width:576px){
+	.header{
+		background:none;
+	}
+}
 @media(max-width:375px){
-	.nav{
-		padding: 16px 20px;
-	}
-	.navbar li{
-		max-width: 50%;
-	}
 	.navbarImg{
 		max-width: 100%;
 	}
 }
-
 .banner{
 	display: flex;
 	justify-content: space-between;
@@ -152,6 +155,11 @@ h3{
 h4{
 	font-size: 18px;
 }
+@media(max-width:768px){
+	h1{
+		font-size: 32px;
+	}
+}
 .mb-1{
 	margin-bottom: 8px;	
 }
@@ -164,18 +172,18 @@ h4{
 	justify-content: center;
 	padding: 158px 0;
 }
-@media(max-width:575px){
+@media(max-width:576px){
 	.banner{
 		flex-wrap: wrap;
 	}
 	.bannerImg{
 		max-width: 75%;
 	}
+	.bannerTitle{
+		padding: 32px 0;
+	}
 }
 @media(max-width:375px){
-	.banner{
-		flex-wrap: wrap;
-	}
 	.bannerImg{
 		max-width: 100%;
 	}
@@ -195,20 +203,34 @@ h4{
 
 .tandemPlatfarmCard li h3{
 	margin-bottom: 24px;
+	font-weight: bold;
 }
 .tandemPlatfarmCard li img{
 	max-width: 33.33%;
 	height: auto;
 	margin-bottom: 24px;
 }
-@media(max-width:575px){
-	.tandemPlatfarmCard{
-		flex-wrap: wrap;
+@media(max-width:576px){
+	.tandemPlatfarm{
+		margin-bottom: 60px;
 	}
-}
-@media(max-width:375px){
+	.main{
+		padding-top: 0px;
+	}
 	.tandemPlatfarmCard{
 		flex-wrap: wrap;
+		margin-top: 0;
+	}
+	.tandemPlatfarmCard li h3{
+		margin-bottom: 16px;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.tandemPlatfarmCard li img{
+		width: 68px;
+		height: 68px;
+		margin-top: 24px;
+		margin-bottom: 16px;
 	}
 }
 .service{
@@ -219,6 +241,13 @@ h4{
 	display: flex;
 	justify-content: space-between;
 	margin: 48px -8px 0 -8px;
+}
+.fz-pb{
+	font-size: 16px;
+}
+.co-p{
+	color: #56C4C5;
+	font-weight: bold;
 }
 .serviceCard li{
 	max-width: 25%;
@@ -236,18 +265,26 @@ h4{
 	margin-bottom: 16px;
 	line-height: 1.5;
 }
-@media(max-width:575px){
+@media(max-width:576px){
+	h2{
+		font-size: 28px;
+		margin-bottom: 16px;
+	}
+	.service p{
+		font-size: 18px;
+	}
 	.serviceCard{
 		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 32px;
+		padding: 0 38px;
 	}
 	.serviceCard li{
-		max-width: 45%;
+		max-width: 75%;
+		margin-bottom: 24px;
 	}
 }
 @media(max-width:375px){
-	.serviceCard{
-		flex-wrap: wrap;
-	}
 	.serviceCard li{
 		max-width: 100%;
 	}
@@ -288,7 +325,8 @@ h4{
 .programTitle h4{
 	margin-bottom: 24px;
 }
-@media(max-width:575px){
+
+@media(max-width:768px){
 	.program{
 		max-width: 100%;
 		flex-direction: column-reverse;
@@ -306,22 +344,7 @@ h4{
 		text-align: center;
 	}
 }
-@media(max-width:375px){
-	.program{
-		max-width: 100%;
-		flex-direction: column-reverse;
-		margin-right: 0px;
 
-	}
-	.programCard{
-		max-width: 100%;
-		justify-content: center;
-	}
-	.programTitle{
-		max-width: 100%;
-		text-align: center;
-	}
-}
 .article{
 	margin-bottom: 100px;
 }
@@ -368,7 +391,23 @@ h4{
 .articleItemStars img{
 	max-width: 8%;
 }
-@media(max-width:575px){
+@media(max-width:992px){
+	.articleItem{
+		flex-direction: column;
+	}
+	.articleItemContent{
+		max-width: 100%;
+	}
+	.articleItemStars{
+		text-align: left;
+	}
+}
+@media(max-width:768px){
+	.articleCardContent{
+		max-width: 30%;
+	}
+}
+@media(max-width:576px){
 	.articleCardContent{
 		max-width: 45%;
 	}
