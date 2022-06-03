@@ -66,12 +66,11 @@ p{
 	/* background: #F5F5F5; */
 }
 .header{
-
-	background-image: url("/img/img.png");
+	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/banner.svg");
 	background-repeat: no-repeat;
 	background-position: right top,-222px 100%;
 	position: relative;
-	background: #F7F9FD 0% 0% no-repeat padding-box;
+	background-image: #F7F9FD 0% 0% no-repeat padding-box;
 	border-radius: 0px 0px 0px 300px;
 
 }
