@@ -191,8 +191,8 @@ h4{
 		background-repeat: no-repeat;
 		background-position: left top;
 		margin: 0 -20px;
-		background: #F7F9FD 0% 0% no-repeat padding-box;
-		border-radius: 0px 0px 0px 300px;
+		/* background: #F7F9FD 0% 0% no-repeat padding-box;
+		border-radius: 0px 0px 0px 300px; */
 	}
 	.bannerTitle{
 		padding: 48px 0 360px 0;
@@ -309,6 +309,11 @@ h4{
 }
 .cardbtn a:hover{
 	background: #FF5D50;
+}
+@media(max-width:576px){
+	.optionitems{
+		flex-wrap: wrap;
+	}
 }
 .footer{
 	margin: 0 auto;
