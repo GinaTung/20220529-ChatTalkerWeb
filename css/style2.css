@@ -184,8 +184,6 @@ h4{
 }
 @media(max-width:375px){
 	.banner{
-		background: #F7F9FD 0% 0% no-repeat padding-box;
-		border-radius: 0px 0px 0px 300px;
 		display: block;
 		max-width: 115%;
 		height: auto;
@@ -193,6 +191,8 @@ h4{
 		background-repeat: no-repeat;
 		background-position: left top;
 		margin: 0 -20px;
+		background: #F7F9FD 0% 0% no-repeat padding-box;
+		border-radius: 0px 0px 0px 300px;
 	}
 	.bannerTitle{
 		padding: 48px 0 360px 0;
