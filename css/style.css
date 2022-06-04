@@ -151,7 +151,7 @@ p{
 	background-size: 45%;
 }
 .top{
-	position: absolute;
+	position: fixed;
 	right: 1px;
 	bottom: 175px;
 }
