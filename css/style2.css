@@ -368,6 +368,9 @@ h4{
 	.cardItemCost{
 		margin-left: 6px;
 	}
+	.priceList{
+		flex-wrap: wrap;
+	}	
 }
 @media(max-width:576px){
 	.main{
@@ -382,9 +385,6 @@ h4{
 	.StandardCard{
 		max-width: 100%;
 	}
-	.priceList{
-		flex-wrap: wrap;
-	}	
 }
 .qa{
 	max-width: 100%;
@@ -426,44 +426,10 @@ h4{
 }
 .footer{
 	margin: 0 auto;
-	padding-top: 260px;
 	text-align: center;
-	background-image:url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
-	background-repeat: no-repeat;
-	background-position: 1px 1px;
-	background-size: 100%;
 }
 
-.footerbox{
-	margin-top: 48px;
-	padding-bottom: 100px;
-}
 .footer p{
 	background:#F5F5F5;
 	padding: 16px 0;	
-}
-@media(max-width:992px){
-	.footer{
-		padding-top: 200px;
-	}
-}
-@media(max-width:576px){
-	.footer{
-		padding-top: 200px;
-		background-image:url("/img/bg.png");
-		background-size: 100%;
-	}
-	h2{
-		margin-top: 160px;
-	}
-}
-@media(max-width:375px){
-	.footer{
-		padding-top: 260px;
-		background-image:url("/img/bg.png");
-	}
-	h2{
-		margin-top: 0;
-		font-size: 24px;
-	}
 }
