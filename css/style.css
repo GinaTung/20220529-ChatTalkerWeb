@@ -122,6 +122,9 @@ p{
 	}
 }
 @media(max-width:576px){
+	.wrap{
+		background-size: 40%;
+	}
 	.header{
 		background:none;
 	}
@@ -478,8 +481,15 @@ h4{
 	}
 }
 @media(max-width:375px){
+	.article h2{
+		margin-bottom: 32px;
+	}
 	.articleCardContent{
 		max-width: 100%;
+		margin-top: 60px;
+	}
+	.articleCardTitle{
+		margin-top: -56px;
 	}
 }
 
