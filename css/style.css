@@ -519,7 +519,7 @@ h4{
 @media(max-width:576px){
 	.footer{
 		padding-top: 200px;
-		background-image:url("/img/bg.png");
+		background-image:url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/footer_sm.svg");
 		background-size: 100%;
 	}
 	.footer h2{
@@ -529,7 +529,6 @@ h4{
 @media(max-width:375px){
 	.footer{
 		padding-top: 260px;
-		background-image:url("/img/bg.png");
 	}
 	.footer h2{
 		margin-top: 0;
