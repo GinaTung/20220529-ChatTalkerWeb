@@ -65,14 +65,15 @@ p{
 	padding-right: 16px;
 	/* background: #F5F5F5; */
 }
+.headerbg{
+	background: #F7F9FD 0% 0% no-repeat;
+	border-radius: 0px 0px 0px 300px;
+}
 .header{
 	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/banner.svg");
 	background-repeat: no-repeat;
 	background-position: right top,-222px 100%;
 	position: relative;
-	background-image: #F7F9FD 0% 0% no-repeat padding-box;
-	border-radius: 0px 0px 0px 300px;
-
 }
 .nav{
 	padding: 24px 0;
@@ -100,10 +101,14 @@ p{
 .btn:hover{
 	background: #56C4C5;
 }
+@media(max-width:1280px){
+	.header{
+		padding: 0 20px;
+	}
+}
 @media(max-width:768px){
 	.header{
 		background-size:75%;
-		padding: 0 20px;
 	}
 	.nav{
 		padding: 16px 0;
@@ -118,7 +123,7 @@ p{
 
 @media(max-width:375px){
 	.header{
-		background:none;
+		background-image:none;
 	}
 	.navbarImg{
 		max-width: 100%;
@@ -183,6 +188,10 @@ h4{
 	}
 }
 @media(max-width:375px){
+	.bannerbg{
+		background: #F7F9FD 0% 0% no-repeat;
+		border-radius: 0px 0px 0px 300px;
+	}
 	.banner{
 		display: block;
 		max-width: 115%;
@@ -190,9 +199,7 @@ h4{
 		background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/banner_sm.svg");
 		background-repeat: no-repeat;
 		background-position: left top;
-		margin: 0 -20px;
-		background-image: #F7F9FD 0% 0% no-repeat padding-box;
-		border-radius: 0px 0px 0px 300px;
+		margin: 0 -25px;
 	}
 	.bannerTitle{
 		padding: 48px 0 360px 0;
@@ -312,12 +319,60 @@ h4{
 .cardbtn a:hover{
 	background: #FF5D50;
 }
+@media(max-width:992px){
+	.basicCard{
+		max-width: 40%;
+	}
+	.StandardCard{
+		max-width: 40%;
+	}
+	.cardItemNum{
+		padding: 24px 16px;
+		margin-right: 8px;
+	}
+	.cardItemCost{
+		padding: 24px 16px;
+		margin-left: 8px;
+	}
+	.text-dline{
+		font-size: 12px;
+	}
+	.cardItemText{
+		font-size: 12px;
+	}
+	.cardItemText h2{
+		font-size: 28px;
+	}
+}
+@media(max-width:768px){
+	.cardItem{
+		margin: 0 16px 27px 16px;
+	}
+	.basicCard{
+		max-width: 50%;
+	}
+	.StandardCard{
+		max-width: 50%;
+	}
+	.cardItemNum{
+		margin-right: 6px;
+	}
+	.cardItemCost{
+		margin-left: 6px;
+	}
+}
 @media(max-width:576px){
 	.main{
 		padding: 0 20px;
 	}
 	.optionitems{
 		flex-wrap: wrap;
+	}
+	.basicCard{
+		max-width: 100%;
+	}
+	.StandardCard{
+		max-width: 100%;
 	}
 	.priceList{
 		flex-wrap: wrap;
