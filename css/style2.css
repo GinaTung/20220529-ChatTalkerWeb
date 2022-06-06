@@ -144,7 +144,7 @@ p{
 .top{
 	position: fixed;
 	right: 1px;
-	bottom: 175px;
+	bottom: 100px;
 }
 .top img{
 	display: block;
@@ -226,10 +226,22 @@ h4{
 	margin: 0 8px;
 	border-radius: 27px;
 }
+
 .priceListBtn a:hover{
 	background: #56C4C5;
 	color: #fff;
 }
+.btn-bg a{
+	display: block;
+	text-decoration: none;
+	border: 1px solid #56C4C5;
+	background: #56C4C5;
+	color: #fff;
+	padding: 12px 32px;
+	margin: 0 8px;
+	border-radius: 27px;
+}
+
 .optionitems{
 	margin-bottom: 100px;
 	display: flex;
@@ -271,6 +283,9 @@ h4{
 }
 .co-pb{
 	color: #56C4C5;
+	font-weight: bold;
+}
+.co-h2{
 	font-weight: bold;
 }
 .cardItemText h2{
@@ -388,6 +403,9 @@ h4{
 }
 .active {
     color: #FF5D50;
+}
+.active-n{
+	display: none;
 }
 .qa{
 	max-width: 100%;
