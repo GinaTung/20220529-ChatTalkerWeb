@@ -1,6 +1,6 @@
 $(function() {
         $('.qa-text').hide();
-        $('#basic1').toggleClass('btn-bg')
+        $('.b1').toggleClass('btn-bg')
     })
     $('.qa-title').on("click", function (e) {
         $(this).siblings('.qa-text').slideToggle(1000);
@@ -8,17 +8,40 @@ $(function() {
         $(this).find('.y').toggle();
     })
 
+    $('.b1').on("click", function (e) {
+        $(this).toggleClass('btn-bg')
+        $('.co-pb').text('10000');
+        $('.co-h2').text('600');
+        $('.co2-h2').text('1600');
+        $(this).siblings().removeClass('btn-bg');
+    })
+    
     $('.b2').on("click", function (e) {
-        // $(this).find('a').toggle();
-        $('#basic2').toggleClass('btn-bg')
-        $('#basic1').toggleClass('btn-bg')
+        $(this).toggleClass('btn-bg')
         $('.co-pb').text('15000');
-        $('.co-h2').text('9000');
-
+        $('.co-h2').text('900');
+        $('.co2-h2').text('1900');
+        $(this).siblings().removeClass('btn-bg');
     })
     $('.b3').on("click", function (e) {
-        $('#basic3').toggleClass('btn-bg')
-        $('#basic2').toggleClass('btn-bg')
-        $('.co-pb').text('20000')
+        $(this).toggleClass('btn-bg')
+        $('.co-pb').text('20000');
+        $('.co-h2').text('1200');
+        $('.co2-h2').text('2100');
+        $(this).siblings().removeClass('btn-bg');
+    })
+    $('.b4').on("click", function (e) {
+        $(this).toggleClass('btn-bg')
+        $('.co-pb').text('25000');
+        $('.co-h2').text('1500');
+        $('.co2-h2').text('2400');
+        $(this).siblings().removeClass('btn-bg');
+    })
+    $('.b5').on("click", function (e) {
+        $(this).toggleClass('btn-bg')
+        $('.co-pb').text('>25000');
+        $('.co-h2').text('1800');
+        $('.co2-h2').text('2700');
+        $(this).siblings().removeClass('btn-bg');
     })
 
