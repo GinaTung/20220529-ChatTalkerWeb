@@ -124,12 +124,12 @@ p{
 @media(max-width:375px){
 	.header{
 		background-image:none;
+		padding: 0;
 	}
 	.navbarImg{
 		max-width: 100%;
 	}
 	.nav{
-		margin: 0 -20px;
 		border-bottom: 2px solid #FFD153;
 	}
 	.navbar{
@@ -199,7 +199,6 @@ h4{
 		background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/banner_sm.svg");
 		background-repeat: no-repeat;
 		background-position: left top;
-		margin: 0 -25px;
 	}
 	.bannerTitle{
 		padding: 48px 0 360px 0;
