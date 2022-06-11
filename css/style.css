@@ -314,7 +314,7 @@ h4{
 .serviceCard li p{
 	margin-bottom: 16px;
 	line-height: 1.5;
-}
+} 
 @media(max-width:576px){
 	h2{
 		font-size: 28px;
@@ -338,7 +338,7 @@ h4{
 	.serviceCard li{
 		max-width: 100%;
 	}
-}
+} 
 .program{
 	display: flex;
 	justify-content: space-between;
@@ -411,8 +411,6 @@ h4{
 		max-width: 100%;
 	}
 }
-
-
 .article{
 	margin-bottom: 100px;
 }
