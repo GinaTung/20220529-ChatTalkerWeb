@@ -58,9 +58,18 @@ p{
 	font-size: 16px;
 }
 .wrap{
+	position: relative;
+	z-index: 1;
+}
+.hero_ball{
+	position: absolute;
 	background-image:url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball02.svg");
+	width: 200px;
+    height: 317px;
 	background-repeat: no-repeat;
-	background-position: 110% center ;
+	bottom:50%;
+	right: 0%;
+	z-index: 2;
 }
 .container{
 	margin: 0 auto;
@@ -125,6 +134,9 @@ p{
 	.wrap{
 		background-size: 40%;
 	}
+	.hero_ball{
+		display: none;
+	}
 	.header{
 		background:none;
 	}
@@ -151,15 +163,27 @@ p{
 	background-size: 45%;
 }
 .top{
-	position: fixed;
+	/* position: fixed;
 	right: 1px;
 	bottom: 175px;
+	z-index: 11; */
+	background: #56C4C5;
+    border: 1px solid #56C4C5;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 26px 17px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 100;
+    right: 48px;
+    bottom: 25px;
 }
-.top img{
+/* .top img{
 	display: block;
 	max-width: 100%;
 	height: auto;
-}
+} */
 .bannerImg{
 	display: none;
 }
@@ -181,6 +205,12 @@ h4{
 @media(max-width:768px){
 	h1{
 		font-size: 32px;
+	}
+	.top{
+		padding: 18px 10px;
+		right: 1px;
+		bottom: 25px;
+		z-index: 100;
 	}
 }
 .mb-1{
@@ -304,6 +334,7 @@ h4{
 	box-shadow: 0px 2px 10px #00000014;
 	border-radius: 12px;
 	margin: 0 8px;
+	z-index: 4;
 }
 .serviceCard li img{
 	margin-bottom: 16px;
@@ -345,6 +376,8 @@ h4{
 	align-items: center;
 	margin-right: 48px;
 	margin-bottom: 100px;
+	z-index: 7;
+	position: relative;
 }
 .programCard{
 	display: flex;
